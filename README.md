@@ -13,7 +13,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 🔗 Links
 
-- Solution URL: (Add Frontend Mentor solution link here)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-with-dark-mode-using-html-and-css-k0Lzrha8A7]
+
 - Live Site URL: [https://jeevanzine17.github.io/qr-code-component/]
 
 ---
