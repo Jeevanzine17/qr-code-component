@@ -14,7 +14,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ## 🔗 Links
 
 - Solution URL: (Add Frontend Mentor solution link here)
-- Live Site URL: (Add live site URL here)
+- Live Site URL: [https://jeevanzine17.github.io/qr-code-component/]
 
 ---
 
