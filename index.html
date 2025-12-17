@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Dark mode toggle -->
+  <button class="theme-toggle" aria-label="Toggle dark mode">
+    🌙
+  </button>
+
+  <main class="container">
+    <article class="card">
+      <img src="./images/image-qr-code.png" alt="QR code linking to Frontend Mentor" />
+
+      <h1>Improve your front-end skills by building projects</h1>
+
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+      Frontend Mentor
+    </a>.
+    Coded by <a href="#">Your Name</a>.
+  </footer>
+
+  <!-- Dark mode script -->
+  <script>
+    const toggle = document.querySelector(".theme-toggle");
+    const html = document.documentElement;
+
+    toggle.addEventListener("click", () => {
+      const currentTheme = html.getAttribute("data-theme");
+      html.setAttribute(
+        "data-theme",
+        currentTheme === "light" ? "dark" : "light"
+      );
+      toggle.textContent = currentTheme === "light" ? "☀️" : "🌙";
+    });
+  </script>
+
+</body>
+</html>
